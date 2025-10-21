@@ -4,10 +4,10 @@ This project contains a Python script to control **Robomaster** in a ROS2 enviro
 
 This code allows you to provide inputs such as:
 
-- **Robot name**  (sk01,02,...)
-- **Initial position** (`x`, `y`, `z`, `w`)  
-- **Goal position** (`x`, `y`, `z`, `w`)  
-- **Type of command** (`init` or `goal`)  
+robot_name → the robot we want to command (e.g., 'sk01').
+command_type → 'init' for initial pose or 'goal' for navigation goal.
+coordinates → a dictionary containing x, y, z, w values for the pose.
+node_id → used to give unique names to nodes in threads.
 
 These inputs can be used in **threads** for asynchronous execution.  
 Use the `RobotCommand` class to publish the initial pose or send goal commands to the robot.
