@@ -1,6 +1,6 @@
 # TurtleBot3 Waypoint Navigation
 
-This project contains a Python script to control **TurtleBot3** in a ROS2 environment using **AMCL localization** and **Nav2 navigation**.  
+This project contains a Python script to control **Robomaster** in a ROS2 environment using **AMCL localization** and **Nav2 navigation**.  
 
 This code allows you to provide inputs such as:
 
